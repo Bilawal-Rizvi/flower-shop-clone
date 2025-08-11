@@ -303,12 +303,14 @@ main{
     background-position: center;
     background-repeat: no-repeat;background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 600px;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
+
 .blossoms .card-blossom{
     width: 80%;
     height: 350px;
@@ -331,3 +333,60 @@ main{
     line-height: 40px;
     color: #ffffff;
 }
+.signup{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    overflow: hidden;
+}
+.signup .photo{
+    width:100%;
+    height: 600px;
+    background-image: url(images/home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left;
+}
+.signup .signup-form img{
+    height: 30px;
+    width: 30px;
+}
+.signup .signup-form{
+    height: 500px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: black;
+    z-index: 2;
+}
+.signup-form h2{
+    margin: 10px 0 10px 0;
+    font-size: 2rem;
+}
+.signup-form span{
+    margin: 10px 0 10px 0;
+    font-size: 1rem;
+}
+.signup-form .input{
+    display: flex;
+    margin: 10px 0 10px 0;
+}
+.input input{
+    height: 50px;
+    width: 300px;
+    border: 1px solid black;
+    outline: #6a6a6a;
+    padding: 10px;
+}
+.input button{
+    height: 50px;
+    width: 100px;    
+    background-color: #212121;
+    border: none;
+    outline: none;
+    color: white;
+}   
